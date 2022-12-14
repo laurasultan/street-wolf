@@ -17,8 +17,8 @@
 * Bootstrap apenas incluso no icon de darkmode
 
 # Website
-* Registro de <a href="https://registro.br/">domínio</a>
+* Registro de <a href="https://registro.br/" target="_blank">domínio</a>
 * <a href="https://br.000webhost.com/">Hospedagem</a> gratuita
 * Extensão Chrome <a href="https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp?hl=en">HTTPS Everywhere</a>
 * FileZilla Portable <a href="https://portableapps.com/apps/internet/filezilla_portable">Download</a>
-* Site teste online <a href="https://street-wolf.000webhostapp.com/">Street Wolf</a>
+* Site teste online <a href="https://street-wolf.000webhostapp.com/" target="_blank">Street Wolf</a>
