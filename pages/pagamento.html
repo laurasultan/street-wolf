@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Wolf - Pagamento e Segurança</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <script src="../js/main.js" defer></script>
+    <script src="../js/button.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body id="body-pay">
+    <header>
+        <nav class="nav1">
+            
+            <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
+            
+                <ul>
+                <a href="../index.html">Home</a>
+                <a href="../pages/catalogo.html">Catálogo</a>
+                <a href="#">Pagamento e Segurança</a>
+                <a href="../pages/sobre.html">Sobre</a>
+                </ul>
+            
+            <a href="../pages/contato.html" class="button" id="cont">Contato</a>
+        </nav>
+        <nav>
+            <nav class="nav2">
+                <a href="../index.html" class="span0">Página inicial</a>
+                <span class="span1"> > </span>
+                <span class="span2">PAGAMENTO & SEGURANÇA</span>
+            </nav>
+        </nav>
+    </header>
+    <main>
+
+        <!-- Container -->
+        <div class="container" style="background-color: #9a9a9a; border-radius: 10px;">
+
+            <section id="colunas2">
+                <article class="card3">
+                    <div>
+                        <h1>FORMAS DE <br> PAGAMENTO</h1>
+                    </div>
+                </article>
+                <article class="card4">
+                    <div>
+                        <nav>
+                            <h1>COMPRA <br> SEGURA</h1>
+                        </nav>
+                    </div>
+                </article>
+            </section>
+            <section id="colunas3">
+                <article class="card5">
+                    <div>
+                        <img src="../img/pagamento.png" alt="Formas de pagamento" width="445px" class="payment">
+                    </div>
+                </article>
+
+            <!-- Botões Aumentar / Diminuir -->
+            <button onclick="changeFontSize('increase')" id="btn1">A+</button>
+            <button onclick="changeFontSize('decrease')" id="btn2">A-</button>
+
+                <article class="card6">
+                    <div>
+                        <nav id="par">
+                                Todas as transações de pagamento efetuadas em nossa loja, são protegidas
+                                por um sistema SSL (Secure Socket Layer) de criptografia de dados empregado
+                                durante o sistema de pagamento, o que proporciona aos usuários maior segurança
+                                e confidencialidade dos dados ao realizar uma transação financeira pela Internet.
+                        </nav>
+                        <img src="../img/seguranca.png" alt="Segurança online" class="security">
+                        <!-- <img src="../img/seg.png" alt="" class="sec"> -->
+                    </div>    
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer>
+        Copyright &copy; 2022 Street Wolf
+    </footer>
+</body>
+</html>
